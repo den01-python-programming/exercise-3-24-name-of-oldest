@@ -18,9 +18,4 @@ def test_exercise():
 
     src.exercise.main()
 
-    src.exercise.input = mock_input
-    src.exercise.print = lambda s : output.append(s)
-
-    src.exercise.main()
-
-    assert output == ["","","","","Name of the oldest: hanna"]
+    assert output == ["","","","","","Name of the oldest: hanna"]
